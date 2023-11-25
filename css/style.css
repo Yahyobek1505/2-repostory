@@ -14,8 +14,6 @@
   pointer-events: none;
   z-index: 98;
   opacity: 0;
-  -webkit-transition: opacity 0.15s;
-  -o-transition: opacity 0.15s;
   transition: opacity 0.15s;
   background-color: #000;
 }
@@ -31,18 +29,12 @@
   left: 0;
   overflow: hidden;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
   opacity: 1;
   pointer-events: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
   z-index: 99;
   visibility: hidden;
@@ -347,15 +339,6 @@ h1 {
   font-weight: 600;
   font-style: normal;
 }
-@font-face {
-  font-family: iconFontsNameProjtct;
-  src: url(../fonts/iconfonts/iconFontsNameProjtct.eot);
-  src: url(../fonts/iconfonts/iconFontsNameProjtct.eot?#iefix) format("eot"),
-    url(../fonts/iconfonts/iconFontsNameProjtct.woff) format("woff"),
-    url(../fonts/iconfonts/iconFontsNameProjtct.ttf) format("truetype"),
-    url(../fonts/iconfonts/iconFontsNameProjtct.svg#iconFontsNameProjtct)
-      format("svg");
-}
 .btn-scroll-up__icon:before,
 .burger-menu.active .burger-menu__icon:before,
 .burger-menu__icon:before,
@@ -364,9 +347,6 @@ h1 {
 .icon-facebook:before,
 .icon-instagram:before,
 .icon-phone:before {
-  font-family: iconFontsNameProjtct;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
